@@ -1,0 +1,159 @@
+@font-face {
+  font-family: pypfont;
+  src: url(../assets/Fonts/PayPalSansBig-Light-Klim.woff);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: pypfont;
+}
+
+.body-color {
+  background-color: #bdbebe;
+}
+main {
+  position: relative;
+  width: 50%;
+
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  margin-top: 80px;
+  padding: 70px;
+}
+
+.logo {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.title-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.inputs-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+}
+
+.balance {
+  color: rgb(10, 119, 75);
+}
+
+.inputs-wrapper {
+  margin-top: 20px;
+}
+
+.inputs-wrapper p {
+  margin-bottom: 7px;
+}
+
+.user,
+.usd {
+  width: 300px;
+  height: 40px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 5px 1px rgb(173, 173, 173);
+  padding-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.transfer-btn-wrapper {
+  margin-top: 20px;
+}
+
+.transfer-btn {
+  width: 130px;
+  height: 50px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #0c7c30;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 2px grey;
+}
+
+.sucssesfuly-wrapper {
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75%;
+
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.scs-wrapper {
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 20px;
+  border-radius: 50%;
+  background-color: rgb(252, 50, 50);
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  padding-top: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.check {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background-color: #dbf3f3;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-check {
+  font-size: 90px;
+  color: #30bd5c;
+}
+
+.desctiption-wrapper {
+  position: absolute;
+  top: 220px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 23px;
+
+  width: 450px;
+  color: #435f5f;
+}
+
+.hidden {
+  display: none;
+}
+
+.ussername,
+.money {
+  font-weight: bolder;
+}

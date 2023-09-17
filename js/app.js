@@ -27,6 +27,8 @@ transferBtn.addEventListener("click", () => {
     succsesfulyPage.classList.remove("hidden");
     userName.innerHTML = `${inputUser.value},`;
     money.innerHTML = `R$ ${inputUsd.value} `;
+    inputUser.value = "";
+    inputUsd.value = "";
   }
 });
 
